@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+.app {
+  min-height: 100vh;
+  background: #3b5998;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tweet {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+.tweet-opp {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+.tweet-logo {
+  display: flex;
+  margin-top: -450px;
+  margin-left: -50px;
+  height: 150px;
+  width: 50px;
+}
+.firstItem {
+  display: flex;
+  color: black;
+  font-size: 15px;
+  flex-direction: row;
+  height: 10px;
+  width: 200px;
+  margin-top: -400px;
+  margin-left: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+.red {
+  color: red;
+  font-style: italic;
+}
+.tweet-black {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+.tweety button {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
